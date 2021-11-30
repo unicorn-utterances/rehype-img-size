@@ -11,7 +11,7 @@
         "html"
     ],
     "engines": {
-      "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+        "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
     },
     "typings": "index.d.ts",
     "type": "module",
@@ -44,6 +44,6 @@
         "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
     },
     "jest": {
-      "transform": {}
+        "transform": {}
     }
 }
